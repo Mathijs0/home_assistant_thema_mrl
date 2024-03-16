@@ -61,8 +61,8 @@ MRL light:
 
   sidebar-icon-color: var(--subtext0)
   sidebar-text-color: var(--subtext0)
-  sidebar-selected-icon-color: var(--mauve)
-  sidebar-selected-text-color: var(--mauve)
+  sidebar-selected-icon-color: var(--sky)
+  sidebar-selected-text-color: var(--sky)
 
   # Buttons
   paper-item-icon-color: var(--subtext0)
@@ -95,7 +95,7 @@ MRL light:
   ha-card-background: var(--card-background-color)
 
   ha-card-border-radius: "15px"
-  ha-card-box-shadow: none
+  ha-card-box-shadow: "inset 0px 0px 0px 0px var(--divider-color)"
   paper-dialog-background-color: var(--overlay0)
   paper-listbox-background-color: var(--overlay0)
   paper-card-background-color: var(--card-background-color)
@@ -153,6 +153,21 @@ MRL light:
   state-on-color: var(--green)
   state-off-color: var(--red)
 
+  #Animated Weather Card:
+  weather-icon-clear-night: url("/hacsfiles/themes/animated-weather-card/icons/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/animated-weather-card/icons/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/animated-weather-card/icons/cloudy.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/animated-weather-card/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/animated-weather-card/icons/lightning.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/animated-weather-card/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/animated-weather-card/icons/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/animated-weather-card/icons/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/animated-weather-card/icons/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/animated-weather-card/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/animated-weather-card/icons/hail.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/animated-weather-card/icons/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/animated-weather-card/icons/cloudy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/animated-weather-card/icons/partlycloudy.svg")
 ####################### MRL dark ######################
 
 MRL dark:
@@ -170,8 +185,8 @@ MRL dark:
   surface0: "#414559"
 
   base: "#303446"
-  mantle: "#292c3c"
-  crust: "#232634"
+  mantle: "#292c3c" #kop
+  crust: "#232634" # zij bar
 
   rosewater: "#f2d5cf"
   flamingo: "#eebebe"
@@ -216,8 +231,8 @@ MRL dark:
 
   sidebar-icon-color: var(--subtext0)
   sidebar-text-color: var(--subtext0)
-  sidebar-selected-icon-color: var(--mauve)
-  sidebar-selected-text-color: var(--mauve)
+  sidebar-selected-icon-color: var(--sky)
+  sidebar-selected-text-color: var(--sky)
 
   # Buttons
   paper-item-icon-color: var(--subtext0)
@@ -240,7 +255,7 @@ MRL dark:
   label-badge-background-color: var(--surface0)
   label-badge-text-color: var(--text)
   label-badge-red: var(--red)
-  label-badge-green: var(--green)
+  label-badge-green: var(--sapphire)
   label-badge-blue: var(--blue)
   label-badge-yellow: var(--yellow)
   label-badge-gray: var(--overlay0)
@@ -250,13 +265,13 @@ MRL dark:
   ha-card-background: var(--card-background-color)
 
   ha-card-border-radius: "15px"
-  ha-card-box-shadow: none
+  ha-card-box-shadow: "inset 0px 0px 0px 0px var(--divider-color)"
   paper-dialog-background-color: var(--overlay0)
   paper-listbox-background-color: var(--overlay0)
   paper-card-background-color: var(--card-background-color)
 
   # Switches
-  switch-checked-button-color: var(--green)
+  switch-checked-button-color: var(--sapphire)
   switch-checked-track-color: var(--surface2)
   switch-unchecked-button-color: rgb(--overlay0)
   switch-unchecked-track-color: rgb(--surface0)
@@ -308,3 +323,19 @@ MRL dark:
 
   state-on-color: var(--green)
   state-off-color: var(--red)
+
+  #Animated Weather Card:
+  weather-icon-clear-night: url("/hacsfiles/themes/animated-weather-card/icons/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/animated-weather-card/icons/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/animated-weather-card/icons/cloudy.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/animated-weather-card/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/animated-weather-card/icons/lightning.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/animated-weather-card/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/animated-weather-card/icons/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/animated-weather-card/icons/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/animated-weather-card/icons/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/animated-weather-card/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/animated-weather-card/icons/hail.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/animated-weather-card/icons/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/animated-weather-card/icons/cloudy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/animated-weather-card/icons/partlycloudy.svg")
